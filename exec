@@ -1,0 +1,3 @@
+#!/bin/sh
+set -euf
+cd "$INIT_CWD" && exec "$@"

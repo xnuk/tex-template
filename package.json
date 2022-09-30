@@ -1,0 +1,7 @@
+{
+	"scripts": {
+		"tex": "./exec texfot latexmk -cd -r \"$PWD/latexmkrc\"",
+		"tex-preview": "./exec texfot latexmk -cd -r \"$PWD/latexmkrc\" -pvc",
+		"tex-clean": "./exec texfot latexmk -cd -r \"$PWD/latexmkrc\" -c"
+	}
+}
